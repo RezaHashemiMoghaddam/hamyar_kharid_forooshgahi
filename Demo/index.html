@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سامانه اشتراک اطلاعات مکانی و موجودی فروشگاه‌ها و کالاها">
+  <title>همیار خرید فروشگاهی | سامانه موجودی فروشگاه‌ها</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#/home" aria-label="همیار خرید فروشگاهی">
+        <span class="brand-mark" aria-hidden="true">🏪</span>
+        <span>همیار خرید فروشگاهی</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#/home">خانه</a>
+        <a href="#/products">جستجوی کالا</a>
+        <a href="#/stores">جستجوی فروشگاه</a>
+        <a href="#/store-dashboard">پنل فروشگاه</a>
+      </nav>
+      <div class="nav-actions">
+        <span id="sessionLabel" class="session-label"></span>
+        <button class="btn btn-ghost" id="logoutBtn" hidden>خروج</button>
+        <a class="btn btn-primary" id="authBtn" href="#/login">ورود / ثبت‌نام</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="container page"></main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">🏪</span><span>همیار خرید فروشگاهی</span></div>
+        <p>پیدا کردن کالا، موجودی و نزدیک‌ترین فروشگاه در یک سامانه ساده و سریع.</p>
+      </div>
+      <div>
+        <h4>دسترسی سریع</h4>
+        <a href="#/products">کالاها</a>
+        <a href="#/stores">فروشگاه‌ها</a>
+        <a href="#/store-dashboard">پنل فروشگاه</a>
+      </div>
+      <div>
+        <h4>نقشه و مسیریابی</h4>
+        <p>نقشه داخل سامانه پیاده‌سازی نشده و برای مسیریابی از سرویس‌های خارجی استفاده می‌شود.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">نسخه Frontend Demo — داده‌ها در LocalStorage مرورگر نگهداری می‌شوند.</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
