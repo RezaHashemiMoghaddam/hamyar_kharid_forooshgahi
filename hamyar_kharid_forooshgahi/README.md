@@ -16,13 +16,13 @@ hamyar_kharid_forooshgahi/
 ```
 ## 1) بررسی و اجرای سریع سامانه:
 
-برای بررسی سریع سامانه از فایل Demo استفاده کنید.
+### برای بررسی سریع سامانه از فایل Demo استفاده کنید.
 
-اجرای سریع Backend, Frontend:
-    1-open start_backend
+### اجرای سریع سامانه:
+
+    1-open start_backend and wait for installation to complete
     2-open start_frontend
-    3-use http://127.0.0.1:5500
-
+    3-use http://127.0.0.1:5500 on Browser
 ## 2) اجرای Backend در ویندوز
 
 PowerShell را باز کنید:
